@@ -4,6 +4,7 @@ public class ResponseSpec {
 
     private String response;
     private int statusCode;
+    private String contentType;
 
     public String getResponse() {
         return response;
@@ -29,5 +30,5 @@ public class ResponseSpec {
         this.contentType = contentType;
     }
 
-    private String contentType;
+
 }
