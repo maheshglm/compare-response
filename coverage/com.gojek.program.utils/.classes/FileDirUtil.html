@@ -1,0 +1,160 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: FileDirUtil</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.gojek.program.utils</a> ]
+</div>
+
+<h1>Coverage Summary for Class: FileDirUtil (com.gojek.program.utils)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">FileDirUtil</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (5/ 5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (20/ 20)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.gojek.program.utils;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.gojek.program.exceptions.Exception;
+<i>4</i>&nbsp;import com.gojek.program.exceptions.ExceptionType;
+<i>5</i>&nbsp;import com.google.common.base.Strings;
+<i>6</i>&nbsp;import org.apache.commons.io.FileUtils;
+<i>7</i>&nbsp;import org.apache.commons.io.LineIterator;
+<i>8</i>&nbsp;import org.slf4j.Logger;
+<i>9</i>&nbsp;import org.slf4j.LoggerFactory;
+<i>10</i>&nbsp;
+<i>11</i>&nbsp;
+<i>12</i>&nbsp;import java.io.File;
+<i>13</i>&nbsp;import java.io.IOException;
+<i>14</i>&nbsp;import java.nio.charset.StandardCharsets;
+<i>15</i>&nbsp;
+<i>16</i>&nbsp;/**
+<i>17</i>&nbsp; * This class contains Utilities for File and Directory handling operations
+<i>18</i>&nbsp; */
+<b class="fc"><i>19</i>&nbsp;public class FileDirUtil {</b>
+<i>20</i>&nbsp;
+<b class="fc"><i>21</i>&nbsp;    private static final Logger LOGGER = LoggerFactory.getLogger(FileDirUtil.class);</b>
+<i>22</i>&nbsp;
+<i>23</i>&nbsp;    public static final String FILEPATH_SHOULD_NOT_NULL_OR_EMPTY = &quot;Filepath should not null or empty&quot;;
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;    /**
+<i>26</i>&nbsp;     * Verify file exists.
+<i>27</i>&nbsp;     * It returns true if filepath exist and its a file.
+<i>28</i>&nbsp;     *
+<i>29</i>&nbsp;     * @param filepath
+<i>30</i>&nbsp;     * @return boolean
+<i>31</i>&nbsp;     */
+<i>32</i>&nbsp;    public boolean verifyFileExists(final String filepath) {
+<b class="fc"><i>33</i>&nbsp;        if (Strings.isNullOrEmpty(filepath)) {</b>
+<b class="fc"><i>34</i>&nbsp;            LOGGER.error(FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);</b>
+<b class="fc"><i>35</i>&nbsp;            throw new Exception(ExceptionType.IO_ERROR, FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);</b>
+<i>36</i>&nbsp;        }
+<b class="fc"><i>37</i>&nbsp;        return new File(filepath).exists() &amp;&amp; new File(filepath).isFile();</b>
+<i>38</i>&nbsp;    }
+<i>39</i>&nbsp;
+<i>40</i>&nbsp;    /**
+<i>41</i>&nbsp;     * Get Line Iterator.
+<i>42</i>&nbsp;     *
+<i>43</i>&nbsp;     * @param filepath
+<i>44</i>&nbsp;     * @return {@link LineIterator}
+<i>45</i>&nbsp;     */
+<i>46</i>&nbsp;    public LineIterator getLineIterator(final String filepath) {
+<b class="fc"><i>47</i>&nbsp;        if (Strings.isNullOrEmpty(filepath)) {</b>
+<b class="fc"><i>48</i>&nbsp;            LOGGER.error(FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);</b>
+<b class="fc"><i>49</i>&nbsp;            throw new Exception(ExceptionType.IO_ERROR, FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);</b>
+<i>50</i>&nbsp;        }
+<i>51</i>&nbsp;        try {
+<b class="fc"><i>52</i>&nbsp;            return FileUtils.lineIterator(new File(filepath));</b>
+<b class="fc"><i>53</i>&nbsp;        } catch (IOException e) {</b>
+<b class="fc"><i>54</i>&nbsp;            LOGGER.error(&quot;IO Error while processing file [{}]&quot;, filepath);</b>
+<b class="fc"><i>55</i>&nbsp;            throw new Exception(ExceptionType.IO_ERROR, &quot;IO Error while processing file [{}]&quot;, filepath);</b>
+<i>56</i>&nbsp;        }
+<i>57</i>&nbsp;    }
+<i>58</i>&nbsp;
+<i>59</i>&nbsp;    /**
+<i>60</i>&nbsp;     * Read File To String.
+<i>61</i>&nbsp;     * It reads the file content into string
+<i>62</i>&nbsp;     * @param filepath
+<i>63</i>&nbsp;     * @return
+<i>64</i>&nbsp;     */
+<i>65</i>&nbsp;    public String readFileToString(final String filepath) {
+<b class="fc"><i>66</i>&nbsp;        if (Strings.isNullOrEmpty(filepath)) {</b>
+<b class="fc"><i>67</i>&nbsp;            LOGGER.error(FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);</b>
+<b class="fc"><i>68</i>&nbsp;            throw new Exception(ExceptionType.IO_ERROR, FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);</b>
+<i>69</i>&nbsp;        }
+<i>70</i>&nbsp;        try {
+<b class="fc"><i>71</i>&nbsp;            return FileUtils.readFileToString(new File(filepath), StandardCharsets.UTF_8);</b>
+<b class="fc"><i>72</i>&nbsp;        } catch (IOException e) {</b>
+<b class="fc"><i>73</i>&nbsp;            LOGGER.error(&quot;IO Error while processing file [{}]&quot;, filepath);</b>
+<b class="fc"><i>74</i>&nbsp;            throw new Exception(ExceptionType.IO_ERROR, &quot;IO Error while processing file [{}]&quot;, filepath);</b>
+<i>75</i>&nbsp;        }
+<i>76</i>&nbsp;    }
+<i>77</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2018-08-25 18:25</div>
+</div>
+</body>
+</html>

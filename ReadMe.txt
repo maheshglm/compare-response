@@ -1,15 +1,17 @@
-Camel Router Spring Project
-===========================
+Download the project
 
-To build this project use
+Navigate to Project Directory
 
-    mvn install
+mvn clean install
 
-To run this project with Maven use
+To build jar:
+mvn package
 
-    mvn camel:run
+You can find target/Compare.jar
 
-For more help see the Apache Camel documentation
+Open command line from the project directory
 
-    http://camel.apache.org/
+execute Compare.jar with below command:
+
+java -jar target/Compare.jar target/test-classes/gojek/file1.txt target/test-classes/gojek/file2.txt
 

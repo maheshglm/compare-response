@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="compare-response:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="41818a13-0319-408d-b858-d8eb221d5271" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gojek/program/FileDirUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/gojek/program/utils/FileDirUtil.java" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.txt" afterPath="$PROJECT_DIR$/ReadMe.txt" />
+      <change beforePath="$PROJECT_DIR$/compare-response.iml" afterPath="$PROJECT_DIR$/compare-response.iml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gojek/program/SpringConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/gojek/program/SpringConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gojek/program/utils/FileDirUtilRunIT.java" afterPath="$PROJECT_DIR$/src/test/java/com/gojek/program/utils/FileDirUtilRunIT.java" />
+      <change beforePath="$PROJECT_DIR$/target/compare-response-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,17 +26,59 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/compare_response$com_gojek_program_utils_in_compare_response.coverage" NAME="com.gojek.program.utils in compare-response Coverage Results" MODIFIED="1535192675309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gojek.program.utils.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/compare_response$com_gojek_program_svc_in_compare_response.coverage" NAME="com.gojek.program.svc in compare-response Coverage Results" MODIFIED="1535192716370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gojek.program.svc.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\mahesh\compare-response\coverage" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gojek/program/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="package-info" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>log</find>
+      <find>slf4j-log4j12</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,15 +94,38 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/exceptions/ExceptionType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/exceptions/Exception.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/mdl/ResponseSpec.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/utils/FileDirUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/utils/SpringConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gojek/program/utils/package-info.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gojek/program/SpringTestConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/FileDirUtil.java" />
         <option value="$PROJECT_DIR$/src/test/resources/gojek/test_file.txt" />
+        <option value="$PROJECT_DIR$/src/test/resources/__files/mock.json" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gojek/program/utils/ApiUtilRunIT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/utils/ICompare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/utils/CompareUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/svc/ICompare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/utils/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/svc/SvcSpringConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gojek/program/SpringTestConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/utils/UtilSpringConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/utils/ApiUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/gojek/xmls/file1.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/gojek/xmls/file2.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/gojek/program/utils/FileDirUtilRunIT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/utils/FileDirUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/utils/XmlUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/gojek/json/file1.json" />
+        <option value="$PROJECT_DIR$/src/test/resources/gojek/json/file2.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/utils/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gojek/program/utils/JsonUtilRunIT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gojek/program/utils/XmlUtilRunIT.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gojek/program/svc/CompareSvcRunIT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gojek/program/svc/CompareSvcTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/svc/CompareSvc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/Main.java" />
+        <option value="$PROJECT_DIR$/ReadMe.txt" />
       </list>
     </option>
   </component>
@@ -90,62 +166,6 @@
               <item name="compare-response" type="b2602c69:ProjectViewProjectNode" />
               <item name="compare-response" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="compare-response" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare-response" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare-response" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare-response" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare-response" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare-response" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare-response" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare-response" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="program" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare-response" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare-response" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="program" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare-response" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare-response" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare-response" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare-response" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare-response" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare-response" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="program" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -157,11 +177,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_opened_file_path" value="E:/Projects/Cucumber_Project/cucumber" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/coverage" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.36245212" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gojek.program.svc" />
       <recent name="com.gojek.program.utils" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -171,12 +195,15 @@
       <recent name="com.gojek.program.utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gojek.program.svc" />
       <recent name="com.gojek.program.utils" />
       <recent name="com.gojek.program.mdl" />
       <recent name="com.gojek.program.exceptions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mahesh\compare-response\src\test\resources\gojek" />
+      <recent name="C:\Users\mahesh\compare-response\src\test\resources\gojek\json" />
+      <recent name="C:\Users\mahesh\compare-response\src\test\resources\gojek\xmls" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -191,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FileDirUtilRunIT">
+  <component name="RunManager" selected="JUnit.com.gojek.program.svc in compare-response">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -213,44 +240,19 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="FileDirUtilRunIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompareSvcTest.testCompare_Xml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.gojek.program.utils.*" />
+          <option name="PATTERN" value="com.gojek.program.svc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="compare-response" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gojek.program.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.gojek.program.utils.FileDirUtilRunIT" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="FileDirUtilRunIT.testGetLineIterator_fileAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gojek.program.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="compare-response" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gojek.program.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.gojek.program.utils.FileDirUtilRunIT" />
-      <option name="METHOD_NAME" value="testGetLineIterator_fileAvailable" />
+      <option name="PACKAGE_NAME" value="com.gojek.program.svc" />
+      <option name="MAIN_CLASS_NAME" value="com.gojek.program.svc.CompareSvcTest" />
+      <option name="METHOD_NAME" value="testCompare_Xml" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -263,19 +265,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FileDirUtilRunIT.testGetLineIterator_fileNotAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompareSvcTest.testCompare_invalidContentType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.gojek.program.utils.*" />
+          <option name="PATTERN" value="com.gojek.program.svc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="compare-response" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gojek.program.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.gojek.program.utils.FileDirUtilRunIT" />
-      <option name="METHOD_NAME" value="testGetLineIterator_fileNotAvailable" />
+      <option name="PACKAGE_NAME" value="com.gojek.program.svc" />
+      <option name="MAIN_CLASS_NAME" value="com.gojek.program.svc.CompareSvcTest" />
+      <option name="METHOD_NAME" value="testCompare_invalidContentType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -288,44 +290,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FileDirUtilRunIT.testVerifyFileExists_emptyFilePath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompareSvcTest.testCompare_json" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.gojek.program.utils.*" />
+          <option name="PATTERN" value="com.gojek.program.svc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="compare-response" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gojek.program.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.gojek.program.utils.FileDirUtilRunIT" />
-      <option name="METHOD_NAME" value="testVerifyFileExists_emptyFilePath" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="FileDirUtilRunIT.testVerifyFileExists_nullFilePath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gojek.program.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="compare-response" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gojek.program.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.gojek.program.utils.FileDirUtilRunIT" />
-      <option name="METHOD_NAME" value="testVerifyFileExists_nullFilePath" />
+      <option name="PACKAGE_NAME" value="com.gojek.program.svc" />
+      <option name="MAIN_CLASS_NAME" value="com.gojek.program.svc.CompareSvcTest" />
+      <option name="METHOD_NAME" value="testCompare_json" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -347,6 +324,56 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="com.gojek.program.svc in compare-response" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gojek.program.svc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="compare-response" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gojek.program.svc" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="com.gojek.program.utils in compare-response" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gojek.program.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="compare-response" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gojek.program.utils" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -399,19 +426,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FileDirUtilRunIT.testVerifyFileExists_emptyFilePath" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FileDirUtilRunIT.testVerifyFileExists_nullFilePath" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FileDirUtilRunIT.testGetLineIterator_fileAvailable" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FileDirUtilRunIT.testGetLineIterator_fileNotAvailable" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FileDirUtilRunIT" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CompareSvcTest.testCompare_Xml" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CompareSvcTest.testCompare_json" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CompareSvcTest.testCompare_invalidContentType" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.com.gojek.program.utils in compare-response" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.com.gojek.program.svc in compare-response" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FileDirUtilRunIT" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FileDirUtilRunIT.testGetLineIterator_fileNotAvailable" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FileDirUtilRunIT.testGetLineIterator_fileAvailable" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FileDirUtilRunIT.testVerifyFileExists_nullFilePath" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FileDirUtilRunIT.testVerifyFileExists_emptyFilePath" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.com.gojek.program.svc in compare-response" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.com.gojek.program.utils in compare-response" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CompareSvcTest.testCompare_invalidContentType" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CompareSvcTest.testCompare_json" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CompareSvcTest.testCompare_Xml" />
       </list>
     </recent_temporary>
   </component>
@@ -432,39 +459,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileDirUtilRunIT - 2018.08.25 at 13h 54m 42s.xml">
-      <configuration name="FileDirUtilRunIT" configurationId="JUnit" />
+    <history-entry file="CompareSvcTest_testCompare_Xml - 2018.08.25 at 18h 15m 45s.xml">
+      <configuration name="CompareSvcTest.testCompare_Xml" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileDirUtilRunIT_testGetLineIterator_fileAvailable - 2018.08.25 at 13h 51m 27s.xml">
-      <configuration name="FileDirUtilRunIT.testGetLineIterator_fileAvailable" configurationId="JUnit" />
+    <history-entry file="CompareSvcTest_testCompare_Xml - 2018.08.25 at 18h 16m 09s.xml">
+      <configuration name="CompareSvcTest.testCompare_Xml" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileDirUtilRunIT_testGetLineIterator_fileNotAvailable - 2018.08.25 at 13h 53m 02s.xml">
-      <configuration name="FileDirUtilRunIT.testGetLineIterator_fileNotAvailable" configurationId="JUnit" />
+    <history-entry file="CompareSvcTest_testCompare_Xml - 2018.08.25 at 18h 16m 42s.xml">
+      <configuration name="CompareSvcTest.testCompare_Xml" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileDirUtilRunIT_testGetLineIterator_fileNotAvailable - 2018.08.25 at 13h 53m 42s.xml">
-      <configuration name="FileDirUtilRunIT.testGetLineIterator_fileNotAvailable" configurationId="JUnit" />
+    <history-entry file="CompareSvcTest_testCompare_Xml - 2018.08.25 at 18h 16m 53s.xml">
+      <configuration name="CompareSvcTest.testCompare_Xml" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileDirUtilRunIT_testVerifyFileExists_emptyFilePath - 2018.08.25 at 13h 44m 05s.xml">
-      <configuration name="FileDirUtilRunIT.testVerifyFileExists_emptyFilePath" configurationId="JUnit" />
+    <history-entry file="CompareSvcTest_testCompare_Xml - 2018.08.25 at 18h 18m 25s.xml">
+      <configuration name="CompareSvcTest.testCompare_Xml" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileDirUtilRunIT_testVerifyFileExists_emptyFilePath - 2018.08.25 at 13h 45m 08s.xml">
-      <configuration name="FileDirUtilRunIT.testVerifyFileExists_emptyFilePath" configurationId="JUnit" />
+    <history-entry file="CompareSvcTest_testCompare_invalidContentType - 2018.08.25 at 18h 21m 31s.xml">
+      <configuration name="CompareSvcTest.testCompare_invalidContentType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileDirUtilRunIT_testVerifyFileExists_fileAvailable - 2018.08.25 at 13h 42m 04s.xml">
-      <configuration name="FileDirUtilRunIT.testVerifyFileExists_fileAvailable" configurationId="JUnit" />
+    <history-entry file="CompareSvcTest_testCompare_json - 2018.08.25 at 18h 19m 14s.xml">
+      <configuration name="CompareSvcTest.testCompare_json" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileDirUtilRunIT_testVerifyFileExists_fileAvailable - 2018.08.25 at 13h 42m 23s.xml">
-      <configuration name="FileDirUtilRunIT.testVerifyFileExists_fileAvailable" configurationId="JUnit" />
+    <history-entry file="com_gojek_program_svc_in_compare-response - 2018.08.25 at 18h 25m 22s.xml">
+      <configuration name="com.gojek.program.svc in compare-response" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileDirUtilRunIT_testVerifyFileExists_fileNotAvailable - 2018.08.25 at 13h 43m 20s.xml">
-      <configuration name="FileDirUtilRunIT.testVerifyFileExists_fileNotAvailable" configurationId="JUnit" />
+    <history-entry file="com_gojek_program_utils_in_compare-response - 2018.08.25 at 18h 22m 03s.xml">
+      <configuration name="com.gojek.program.utils in compare-response" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FileDirUtilRunIT_testVerifyFileExists_nullFilePath - 2018.08.25 at 13h 45m 35s.xml">
-      <configuration name="FileDirUtilRunIT.testVerifyFileExists_nullFilePath" configurationId="JUnit" />
+    <history-entry file="com_gojek_program_utils_in_compare-response - 2018.08.25 at 18h 24m 40s.xml">
+      <configuration name="com.gojek.program.utils in compare-response" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -474,17 +502,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19340159" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3105802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5975057" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6120592" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48691696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -499,9 +528,48 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>apiResponseSpec.getResponse().contains(&quot;WireMock&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>apiResponseSpec.getResponse()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>apiResponseSpec.getContentType()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>apiResponseSpec.getStatusCode()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>httpConn.getResponseCode()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>httpConn.getContentType()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>httpConn.responseCode</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/data/message1.xml">
@@ -513,14 +581,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/message2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -576,33 +636,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gojek/program/SpringConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#276#277#0" expanded="false" />
-            <element signature="e#316#317#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gojek/program/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojek/program/SpringTestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,14 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/gojek/file1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compare-response.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -638,46 +668,348 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="350">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tomakehurst/wiremock/1.58/wiremock-1.58.jar!/com/github/tomakehurst/wiremock/client/MappingBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="56" column="26" lean-forward="false" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        <state relative-caret-position="280">
+          <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojek/program/utils/FileDirUtilRunIT.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gojek/program/svc/ICompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="81" column="39" lean-forward="true" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gojek/program/svc/SvcSpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gojek/xmls/file2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gojek/program/utils/FileDirUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="335">
+          <caret line="60" column="44" lean-forward="true" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gojek/xmls/file1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gojek/json/file2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gojek/json/file1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojek/program/utils/FileDirUtilRunIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojek/program/utils/XmlUtilRunIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojek/program/utils/JsonUtilRunIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/__files/mock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojek/program/utils/ApiUtilRunIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="57" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gojek/file1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/gojek/file2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojek/program/svc/CompareSvcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#890#891#0" expanded="false" />
+            <element signature="e#940#941#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojek/program/svc/CompareSvcRunIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gojek/program/SpringTestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gojek/program/utils/UtilSpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gojek/program/SpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gojek/program/utils/XmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gojek/program/utils/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gojek/program/utils/ApiUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gojek/program/svc/CompareSvc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-470">
+          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="168" column="33" lean-forward="false" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="15" column="96" lean-forward="false" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gojek/program/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>compare-response:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36245212" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>compare-response</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

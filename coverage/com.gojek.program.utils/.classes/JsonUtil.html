@@ -1,0 +1,118 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: JsonUtil</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.gojek.program.utils</a> ]
+</div>
+
+<h1>Coverage Summary for Class: JsonUtil (com.gojek.program.utils)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">JsonUtil</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/ 3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (9/ 9)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.gojek.program.utils;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.fasterxml.jackson.databind.JsonNode;
+<i>4</i>&nbsp;import com.fasterxml.jackson.databind.ObjectMapper;
+<i>5</i>&nbsp;import com.gojek.program.exceptions.Exception;
+<i>6</i>&nbsp;import com.gojek.program.exceptions.ExceptionType;
+<i>7</i>&nbsp;import org.slf4j.Logger;
+<i>8</i>&nbsp;import org.slf4j.LoggerFactory;
+<i>9</i>&nbsp;
+<i>10</i>&nbsp;import java.io.IOException;
+<i>11</i>&nbsp;
+<b class="fc"><i>12</i>&nbsp;public class JsonUtil {</b>
+<i>13</i>&nbsp;
+<b class="fc"><i>14</i>&nbsp;    private static final Logger LOGGER = LoggerFactory.getLogger(JsonUtil.class);</b>
+<i>15</i>&nbsp;
+<i>16</i>&nbsp;    public static final String IO_ERROR_WHILE_PARSING_JSON_STRING = &quot;IO Error while parsing json string&quot;;
+<i>17</i>&nbsp;
+<i>18</i>&nbsp;    /**
+<i>19</i>&nbsp;     * Compare 2 json Strings and returns true if both are same.
+<i>20</i>&nbsp;     * @param json1 string
+<i>21</i>&nbsp;     * @param json2 string
+<i>22</i>&nbsp;     * @return boolean
+<i>23</i>&nbsp;     */
+<i>24</i>&nbsp;    public boolean compareJson(final String json1, final String json2) {
+<b class="fc"><i>25</i>&nbsp;        ObjectMapper mapper = new ObjectMapper();</b>
+<i>26</i>&nbsp;        try {
+<b class="fc"><i>27</i>&nbsp;            JsonNode jsonTree1 = mapper.readTree(json1);</b>
+<b class="fc"><i>28</i>&nbsp;            JsonNode jsonTree2 = mapper.readTree(json2);</b>
+<b class="fc"><i>29</i>&nbsp;            return jsonTree1.equals(jsonTree2);</b>
+<b class="fc"><i>30</i>&nbsp;        } catch (IOException e) {</b>
+<b class="fc"><i>31</i>&nbsp;            LOGGER.error(IO_ERROR_WHILE_PARSING_JSON_STRING);</b>
+<b class="fc"><i>32</i>&nbsp;            throw new Exception(ExceptionType.IO_ERROR, IO_ERROR_WHILE_PARSING_JSON_STRING);</b>
+<i>33</i>&nbsp;        }
+<i>34</i>&nbsp;    }
+<i>35</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2018-08-25 18:25</div>
+</div>
+</body>
+</html>
