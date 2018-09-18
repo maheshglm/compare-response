@@ -13,15 +13,15 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.File;
-import java.util.Objects;
 
-public class CompareUtil implements ICompare {
+public class CompareSvc implements ICompare {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(CompareUtil.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CompareSvc.class);
 
     public static final String FILE_IS_NOT_AVAILABLE = "File [{}] is not available";
     public static final String APPLICATION_JSON = "application/json";
     public static final String APPLICATION_XML = "application/xml";
+    public static final String UNSUPPORTED_CONTENT_TYPE_FOR_COMPARISION = "Unsupported Content type for comparision";
 
     @Autowired
     private FileDirUtil fileDirUtil;
@@ -36,6 +36,13 @@ public class CompareUtil implements ICompare {
     private JsonUtil jsonUtil;
 
 
+    /**
+     * Compare Api response.
+     * It reads both files line by line and compares the response for each request.
+     *
+     * @param file1 {@link File}
+     * @param file2 {@link File}
+     */
     public void compareApiResponses(final File file1, final File file2) {
         if (!fileDirUtil.verifyFileExists(file1.getAbsolutePath())) {
             LOGGER.error(FILE_IS_NOT_AVAILABLE, file1.getAbsolutePath());
@@ -45,17 +52,13 @@ public class CompareUtil implements ICompare {
             LOGGER.error(FILE_IS_NOT_AVAILABLE, file2.getAbsolutePath());
             throw new Exception(ExceptionType.PROCESSING_FAILED, FILE_IS_NOT_AVAILABLE, file2.getAbsolutePath());
         }
-
         LineIterator file1Iterator = null;
         LineIterator file2Iterator = null;
-
         try {
             file1Iterator = fileDirUtil.getLineIterator(file1.getAbsolutePath());
             file2Iterator = fileDirUtil.getLineIterator(file2.getAbsolutePath());
-
             String file1Url;
             String file2Url;
-
 
             while (file1Iterator.hasNext() && file2Iterator.hasNext()) {
                 file1Url = file1Iterator.nextLine();
@@ -67,14 +70,15 @@ public class CompareUtil implements ICompare {
                     LOGGER.info("{} not equals {}", file1Url, file2Url);
                 }
             }
-        } catch (Exception e) {
-
         } finally {
-            Objects.requireNonNull(file1Iterator).close();
-            Objects.requireNonNull(file2Iterator).close();
+            if (file1Iterator != null) {
+                file1Iterator.close();
+            }
+            if (file2Iterator != null) {
+                file2Iterator.close();
+            }
         }
     }
-
 
     @Override
     public boolean compare(ResponseSpec spec1, ResponseSpec spec2) {
@@ -83,10 +87,10 @@ public class CompareUtil implements ICompare {
             return jsonUtil.compareJson(spec1.getResponse(), spec2.getResponse());
         } else if (spec1.getContentType().contains(APPLICATION_XML) &&
                 spec2.getContentType().contains(APPLICATION_XML)) {
-            return xmlUtil.compareXmls(spec1.getResponse(), spec2.getResponse());
+            return xmlUtil.compareXml(spec1.getResponse(), spec2.getResponse());
         } else {
-            LOGGER.error("Unsupported Content type for comparision");
-            throw new Exception(ExceptionType.UNSUPPORTED_OPERATION, "Unsupported Content type for comparision");
+            LOGGER.error(UNSUPPORTED_CONTENT_TYPE_FOR_COMPARISION);
+            throw new Exception(ExceptionType.UNSUPPORTED_OPERATION, UNSUPPORTED_CONTENT_TYPE_FOR_COMPARISION);
         }
     }
 }
