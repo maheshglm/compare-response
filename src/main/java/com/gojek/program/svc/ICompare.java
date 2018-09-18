@@ -1,4 +1,4 @@
-package com.gojek.program.utils;
+package com.gojek.program.svc;
 
 import com.gojek.program.mdl.ResponseSpec;
 
