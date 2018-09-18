@@ -1,6 +1,5 @@
 package com.gojek.program.utils;
 
-import com.gojek.program.FileDirUtil;
 import com.gojek.program.SpringTestConfig;
 import com.gojek.program.exceptions.Exception;
 import org.apache.commons.io.LineIterator;
@@ -16,8 +15,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.gojek.program.FileDirUtil.FILEPATH_SHOULD_NOT_NULL_OR_EMPTY;
-import static org.junit.Assert.*;
+import static com.gojek.program.utils.FileDirUtil.FILEPATH_SHOULD_NOT_NULL_OR_EMPTY;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes = {SpringTestConfig.class})

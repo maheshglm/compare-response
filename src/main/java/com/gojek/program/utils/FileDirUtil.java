@@ -1,4 +1,4 @@
-package com.gojek.program;
+package com.gojek.program.utils;
 
 import com.gojek.program.exceptions.Exception;
 import com.gojek.program.exceptions.ExceptionType;
