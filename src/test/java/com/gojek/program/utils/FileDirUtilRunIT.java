@@ -69,16 +69,37 @@ public class FileDirUtilRunIT {
     }
 
     @Test
-    public void testGetLineIterator_fileNotAvailable(){
+    public void testGetLineIterator_fileNotAvailable() {
         thrown.expect(Exception.class);
         thrown.expectMessage("IO Error while processing file [target/test-classes/gojek/nofile.txt]");
         fileDirUtil.getLineIterator("target/test-classes/gojek/nofile.txt");
     }
 
     @Test
-    public void testGetLineIterator_emptyFilePath(){
+    public void testGetLineIterator_emptyFilePath() {
         thrown.expect(Exception.class);
         thrown.expectMessage(FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);
         fileDirUtil.getLineIterator("");
+    }
+
+    @Test
+    public void testReadFileToString_validFile() {
+        String string = fileDirUtil.readFileToString("target/test-classes/gojek/file1.txt");
+        Assert.assertTrue(string != null);
+        Assert.assertTrue(string.contains("https://reqres.in/api/users?page=3"));
+    }
+
+    @Test
+    public void testReadFileToString_fileNotAvailable() {
+        thrown.expect(Exception.class);
+        thrown.expectMessage("IO Error while processing file [target/test-classes/gojek/nofile.txt]");
+        fileDirUtil.readFileToString("target/test-classes/gojek/nofile.txt");
+    }
+
+    @Test
+    public void testReadFileToString_emptyFilePath() {
+        thrown.expect(Exception.class);
+        thrown.expectMessage(FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);
+        fileDirUtil.readFileToString("");
     }
 }
