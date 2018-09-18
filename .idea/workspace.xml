@@ -9,13 +9,6 @@
     <list default="true" id="41818a13-0319-408d-b858-d8eb221d5271" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.txt" afterPath="$PROJECT_DIR$/ReadMe.txt" />
-      <change beforePath="$PROJECT_DIR$/compare-response.iml" afterPath="$PROJECT_DIR$/compare-response.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gojek/program/SpringConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/gojek/program/SpringConfig.java" />
-      <change beforePath="$PROJECT_DIR$/target/compare-response-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,8 +48,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="100">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -123,9 +116,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/svc/CompareSvc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/SpringConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/gojek/program/Main.java" />
         <option value="$PROJECT_DIR$/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -165,6 +158,17 @@
             <path>
               <item name="compare-response" type="b2602c69:ProjectViewProjectNode" />
               <item name="compare-response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="compare-response" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compare-response" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="compare-response" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compare-response" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -924,8 +928,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="100">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding />
         </state>
       </provider>
