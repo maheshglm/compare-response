@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 
 /**
  * This class contains Utilities for File and Directory handling operations
@@ -33,11 +34,11 @@ public class FileDirUtil {
             LOGGER.error(FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);
             throw new Exception(ExceptionType.IO_ERROR, FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);
         }
-        File file = new File(filepath);
-        return file.exists() && file.isFile();
+        return new File(filepath).exists() && new File(filepath).isFile();
     }
 
-    /** Get Line Iterator.
+    /**
+     * Get Line Iterator.
      *
      * @param filepath
      * @return {@link LineIterator}
@@ -47,9 +48,27 @@ public class FileDirUtil {
             LOGGER.error(FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);
             throw new Exception(ExceptionType.IO_ERROR, FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);
         }
-        File file = new File(filepath);
         try {
-            return FileUtils.lineIterator(file);
+            return FileUtils.lineIterator(new File(filepath));
+        } catch (IOException e) {
+            LOGGER.error("IO Error while processing file [{}]", filepath);
+            throw new Exception(ExceptionType.IO_ERROR, "IO Error while processing file [{}]", filepath);
+        }
+    }
+
+    /**
+     * Read File To String.
+     * It reads the file content into string
+     * @param filepath
+     * @return
+     */
+    public String readFileToString(final String filepath) {
+        if (Strings.isNullOrEmpty(filepath)) {
+            LOGGER.error(FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);
+            throw new Exception(ExceptionType.IO_ERROR, FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);
+        }
+        try {
+            return FileUtils.readFileToString(new File(filepath), StandardCharsets.UTF_8);
         } catch (IOException e) {
             LOGGER.error("IO Error while processing file [{}]", filepath);
             throw new Exception(ExceptionType.IO_ERROR, "IO Error while processing file [{}]", filepath);
