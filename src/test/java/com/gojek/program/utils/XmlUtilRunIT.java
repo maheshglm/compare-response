@@ -44,10 +44,10 @@ public class XmlUtilRunIT {
     }
 
     @Test
-    public void testCompareXml_exception(){
+    public void testCompareXml_exception() {
         thrown.expect(Exception.class);
         thrown.expectMessage(IO_ERROR_WHILE_PARSING_XML_STRING);
-        xmlUtil.compareXml("<note><to>Tove</to><note>","<note><to>Tove</to></note>");
+        xmlUtil.compareXml("<note><to>Tove</to><note>", "<note><to>Tove</to></note>");
     }
 
 

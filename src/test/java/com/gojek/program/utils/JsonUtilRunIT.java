@@ -12,7 +12,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static com.gojek.program.utils.JsonUtil.IO_ERROR_WHILE_PARSING_JSON_STRING;
-import static com.gojek.program.utils.XmlUtil.IO_ERROR_WHILE_PARSING_XML_STRING;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes = {SpringTestConfig.class})
