@@ -1,4 +1,4 @@
-package com.gojek.program.utils;
+package com.gojek.program;
 
 import com.gojek.program.exceptions.Exception;
 import com.gojek.program.exceptions.ExceptionType;
@@ -8,6 +8,7 @@ import org.apache.commons.io.LineIterator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+
 import java.io.File;
 import java.io.IOException;
 
@@ -15,19 +16,21 @@ public class FileDirUtil {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(FileDirUtil.class);
 
-    public static boolean verifyFileExists(final String filepath) {
+    public static final String FILEPATH_SHOULD_NOT_NULL_OR_EMPTY = "Filepath should not null or empty";
+
+    public boolean verifyFileExists(final String filepath) {
         if (Strings.isNullOrEmpty(filepath)) {
-            LOGGER.error("Filepath should not null or empty");
-            throw new Exception(ExceptionType.IO_ERROR, "Filepath should not null or empty");
+            LOGGER.error(FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);
+            throw new Exception(ExceptionType.IO_ERROR, FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);
         }
         File file = new File(filepath);
         return file.exists() && file.isFile();
     }
 
-    public static LineIterator getLineIterator(final String filepath) {
+    public LineIterator getLineIterator(final String filepath) {
         if (Strings.isNullOrEmpty(filepath)) {
-            LOGGER.error("Filepath should not null or empty");
-            throw new Exception(ExceptionType.IO_ERROR, "Filepath should not null or empty");
+            LOGGER.error(FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);
+            throw new Exception(ExceptionType.IO_ERROR, FILEPATH_SHOULD_NOT_NULL_OR_EMPTY);
         }
         File file = new File(filepath);
         try {
