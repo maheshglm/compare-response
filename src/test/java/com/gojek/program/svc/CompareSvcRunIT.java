@@ -40,14 +40,14 @@ public class CompareSvcRunIT {
     @Test
     public void testCompareApiResponses_file1NotFound(){
         thrown.expect(Exception.class);
-        thrown.expectMessage("File [C:\\Users\\mahesh\\compare-response\\noFile.txt] is not available");
+        thrown.expectMessage("noFile.txt] is not available");
         compareSvc.compareApiResponses(new File("noFile.txt"),FILE2);
     }
 
     @Test
     public void testCompareApiResponses_file2NotFound(){
         thrown.expect(Exception.class);
-        thrown.expectMessage("File [C:\\Users\\mahesh\\compare-response\\noFile.txt] is not available");
+        thrown.expectMessage("noFile.txt] is not available");
         compareSvc.compareApiResponses(FILE1,new File("noFile.txt"));
     }
 }
