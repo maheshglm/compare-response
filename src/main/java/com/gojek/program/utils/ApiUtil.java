@@ -11,14 +11,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Objects;
 
 public class ApiUtil {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ApiUtil.class);
 
-    public static ResponseSpec getApiResponseSpec(final String url) {
+    public ResponseSpec getApiResponseSpec(final String url) {
         ResponseSpec responseSpec = new ResponseSpec();
-        HttpURLConnection httpConn;
+        HttpURLConnection httpConn = null;
         StringBuilder response = new StringBuilder();
         String line;
         try {
@@ -38,8 +39,10 @@ public class ApiUtil {
             responseSpec.setResponse(response.toString());
             return responseSpec;
         } catch (IOException e) {
-            LOGGER.error("IO Error while opening HttpUrlConnection");
+            LOGGER.error("IO Error while opening HttpUrlConnection", e.fillInStackTrace());
             throw new Exception(ExceptionType.IO_ERROR, "IO Error while opening HttpUrlConnection");
+        } finally {
+            Objects.requireNonNull(httpConn).disconnect();
         }
     }
 }
