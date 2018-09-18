@@ -1,0 +1,6 @@
+/.idea/
+/target/
+*.bak
+*.iml
+*.ipr
+*.ipl
