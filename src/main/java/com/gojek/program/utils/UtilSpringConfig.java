@@ -1,4 +1,4 @@
-package com.gojek.program;
+package com.gojek.program.utils;
 
 import com.gojek.program.utils.ApiUtil;
 import com.gojek.program.svc.CompareSvc;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class SpringConfig {
+public class UtilSpringConfig {
 
     @Bean
     public FileDirUtil fileDirUtil(){
@@ -29,10 +29,5 @@ public class SpringConfig {
     @Bean
     public XmlUtil xmlUtil(){
         return new XmlUtil();
-    }
-
-    @Bean
-    public CompareSvc compareSvc(){
-        return new CompareSvc();
     }
 }
