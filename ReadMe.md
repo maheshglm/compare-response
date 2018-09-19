@@ -1,12 +1,16 @@
-Download the project compare-response.rar
+Download the project compare-response.zip
 
 Unzip the project to the folder : compare-response
+
+Change to compare-response directory
+
+$ cd compare-response
 
 Below command Generates executable jar files with dependencies:
 
 $ mvn clean package
 
-Then you can run the JAR file with:
+Run the Compare API responses program with:
 
 $ java -jar target/Compare.jar target/test-classes/gojek/file1.txt target/test-classes/gojek/file2.txt
 
