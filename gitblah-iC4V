@@ -1,0 +1,54 @@
+2018-09-19T15:20:54+08:00 | 482c379cacb965a32620b89720244516e9a75236 | Update Readme.md with dos2unix command
+2018-09-19T15:15:09+08:00 | 1e5556cc2e8eb7e4dd2d729861fa9fefd450d87f | Update Readme.md
+2018-09-19T15:08:40+08:00 | 067d1b992f862d533387cd227f7380424e789e58 | Add executable files for windows and linux
+2018-09-19T15:08:09+08:00 | f8a3cae9fc1d71f3dd8a176ef06f81971f21f04e | Update Readme.md
+2018-09-19T14:23:48+08:00 | 08e41a8ea24e7a9f0c2cc3df738583b6a185697c | Update ReadMe.md with instructions if running in JDK9+
+2018-09-19T14:09:55+08:00 | dceaf3a508d99f7af500292b1295a8182c35f09b | Add executable jar in lib folder
+2018-09-19T14:09:35+08:00 | 46a5296e0c0995ee773129e80ffa5e35c32916ba | Update Readme.md
+2018-09-19T12:20:54+08:00 | 4b06089c093650a94d58e241eb636f534047bdaf | Update ReadMe.md
+2018-09-19T12:19:43+08:00 | 2e3e535536daf44fa0af9e1cbde05eb7c1b2d107 | Update ReadMe.md
+2018-09-19T12:14:43+08:00 | 96fde337d314311ccacbae99d4d960cb74a3be25 | Cleanup lib folder
+2018-09-19T12:10:39+08:00 | 43310f7d46d3351f0685eb40c3d1e1bb44eb92d4 | Refactore folder structure
+2018-09-19T12:10:12+08:00 | 034fd8158d68c150b4f750aa58ec2e974c633e77 | Update gitignore file
+2018-09-19T12:09:33+08:00 | e2c52d3276e4917d255e2142c4fef983e2b7f94e | Update gitignore
+2018-09-19T12:05:42+08:00 | 147cd62c28739ad814a58414ff3fdbd7109bb202 | Update pom with maven shade plugin
+2018-09-19T11:07:25+08:00 | f7cc16d082f401f2f50f7fd5127b0831cdcd1d91 | Updare ReadMe.md
+2018-09-18T22:42:24+08:00 | 76d761d78f55c2def6eec341c295b557870c925e | Update ReadMe
+2018-09-18T22:36:51+08:00 | 34f78595d1fc073bfc406d7501c68f47c94adac2 | Fix failed tests in linux
+2018-09-18T21:56:22+08:00 | e7e4a368f23883852f543279a387cf573791d400 | Update gitignore
+2018-09-18T21:54:49+08:00 | 32ee9a96293ce6ee18adec3a034656632a0e03e4 | Update code
+2018-09-18T21:49:56+08:00 | 005bc59aeea6f4a5e7a69e229ddfeaf7c55f9cc5 | Update pom.xml with mvn dependencies
+2018-09-18T21:49:09+08:00 | 17c2e4183bac58b81feb086c4b7f293a4e54b47b | Add main class
+2018-09-18T18:31:52+08:00 | bd4f29e8ed1e1b9b50ef5620c21e225abb3b2b2a | Add log4j.properties
+2018-09-18T18:31:21+08:00 | ca48233994df364b0c73a98cd75654d3c305a98d | Update pom.xml with mockito dependencies
+2018-09-18T18:30:48+08:00 | 19f6fa9cdafce01adb36100aa1fc3abe62771903 | Add tests for compareSvc methods
+2018-09-18T18:30:15+08:00 | 230f13f36893f7857e8346ecbcad09b53fddd33c | Add comparesvc class for compating api responses from files
+2018-09-18T18:28:00+08:00 | 7a9ac1f5e647af796ec2cdf987cd3eb1108a315a | Add ICompare interface with compare method
+2018-09-18T17:17:13+08:00 | da8bd963948194680c881aaf05b85f3b099389a2 | Tidyup code
+2018-09-18T17:16:06+08:00 | d25e585389c3d8d7ace8a7c03b038e7f2dd4e8e7 | Add java docs to apiutils
+2018-09-18T17:15:19+08:00 | 23b4ba41aadf40a8bb94dde18e9595e7864360a3 | Refactor Spring config files
+2018-09-18T17:14:27+08:00 | 1ecebb447cbeffa74e7b14ad5bae90b5b8752d28 | Add json test files
+2018-09-18T17:14:03+08:00 | f20374d270363678b5be49b99a3f9c8ed31d333b | Add new tests for jsoncomparision
+2018-09-18T17:13:18+08:00 | 25672c9c5892ec0eadd0e084b2214745c05f01d3 | Add java docs to jsonutil method
+2018-09-18T17:02:49+08:00 | 90714f32f32582830106851500d9912f4731c1db | Add java docs to xmlutils
+2018-09-18T17:01:34+08:00 | 817fe2969ed28e3b38718789bc7cca24383ebc50 | Add test xml files
+2018-09-18T17:01:09+08:00 | 32e24e4435eb6ef49b9503c2be9ac630295cd466 | Add tests for comparexml method
+2018-09-18T16:47:53+08:00 | faf7dcf8339fbd85bff9437e937fe8282e4b3dfa | Add tests for readFileToString method
+2018-09-18T16:47:01+08:00 | f63039ec90ba3dbf6453908ce17a132aba40b24f | Add new method to read file content into string
+2018-09-18T16:20:39+08:00 | 39100d1d4801a20367b1fc0a9ab702a9211c7241 | Update Java docs for FilDirUtil
+2018-09-18T15:25:36+08:00 | 40e3c6a3a3b4b931a0c22f018e341cc9bbf23a60 | Add CompareUtil Bean to spring config
+2018-09-18T15:23:54+08:00 | 2d700eb9f5815a860f4125e683f2e5597f7a327f | Add mock.json for wiremock to consume
+2018-09-18T15:23:28+08:00 | 45ed38dc388009ecba9ea7c0bce60d347f99013b | Add tests for apiutil
+2018-09-18T15:23:04+08:00 | 44cf1a820525d56852b1cd81fe50c9b2f289e984 | Add Apiutil class with a method to send GET request
+2018-09-18T15:21:59+08:00 | ee0b8d12dc7262f6484f084789af6ec00a7180ca | Add wiremock dependency
+2018-09-18T14:09:12+08:00 | 1cbd3bd69f0e3d82c2589c6b23f73640ccf29874 | Update springconfig with ApiUtil bean
+2018-09-18T14:07:24+08:00 | 8a96722531497763a2153236b2f2dfa44c6ccc4f | Add new class for ApiUtils functions
+2018-09-18T14:03:37+08:00 | 5fb30056e528912f96c242508a96a56134c02c72 | Refactor code
+2018-09-18T14:01:55+08:00 | a8f7a68b346e9b144dfcfe545a654849b8765f3d | Refactore code
+2018-09-18T14:01:37+08:00 | e960bb8b72eb554a75cd85d124bf675ffca7ade3 | Add new unit tests for filedir utility functions
+2018-09-18T14:00:26+08:00 | a0867959be5b86bc53bbfb901b232ebf16e8c6fe | Add gitignore file
+2018-09-18T13:56:10+08:00 | fab7bc6a73b382e20c7d3993d9dc64231f72fcd3 | Update Spring config
+2018-09-18T12:50:25+08:00 | 3c8b82b945b49d58b11a09fa2b1e66efb762c003 | Refactor code
+2018-09-18T12:50:05+08:00 | 4ab39a97495eef00f318091c510c792f28743781 | Add response specification model class
+2018-09-18T12:49:01+08:00 | c02c0c8748cc0132ea38c9f97c7e149531ad46e3 | Add custom exceptions class and enum
+2018-09-18T12:43:05+08:00 | 286768b9ec90eaaf41bb177696c5ac146d2eafc2 | Initial Commit
