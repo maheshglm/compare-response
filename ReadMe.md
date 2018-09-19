@@ -21,5 +21,6 @@ Instructions to Execute compare.sh (LINUX)
 =================================================================================================
 
     $ cd compare-response/execute
+    $ dos2unix compare.sh compare.sh
     $ chmod 777 compare.sh
     $ ./compare.sh file1.txt file2.txt
