@@ -6,6 +6,9 @@ Below command Generates executable jar in ./lib folder:
 
     $ mvn clean package
 
+
+Unzip compare-response.zip to compare-response folder
+
 =================================================================================================
 Instructions to Execute compare.bat (WINDOWS)
 =================================================================================================
