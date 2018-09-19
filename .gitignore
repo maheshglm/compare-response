@@ -1,7 +1,5 @@
-/.idea/*
-/target/*
-/out/*
-/coverage/*
+/.idea/
+/target/
 *.bak
 *.iml
 *.ipr
