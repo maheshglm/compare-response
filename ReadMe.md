@@ -12,5 +12,5 @@ $ mvn clean package
 
 Run the Compare API responses program with:
 
-$ java -jar target/Compare.jar target/test-classes/gojek/file1.txt target/test-classes/gojek/file2.txt
+$ java -jar lib/Compare.jar target/test-classes/gojek/file1.txt target/test-classes/gojek/file2.txt
 
